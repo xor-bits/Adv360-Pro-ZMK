@@ -1,12 +1,12 @@
-macro_ö: macro_ö{
+macro_fin_o: macro_fin_o{
 compatible = "zmk,behavior-macro";
-label = "macro_ö";
+label = "macro_fin_o";
 #binding-cells = <0>;
 bindings = <&kp RIGHT_ALT>, <&kp DOUBLE_QUOTES>, <&kp O>;
 };
-macro_ä: macro_ä{
+macro_fin_a: macro_fin_a{
 compatible = "zmk,behavior-macro";
-label = "macro_ä";
+label = "macro_fin_a";
 #binding-cells = <0>;
 bindings = <&kp RIGHT_ALT>, <&kp DOUBLE_QUOTES>, <&kp A>;
 };
