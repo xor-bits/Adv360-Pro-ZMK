@@ -66,21 +66,21 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1        &kp N2         &kp N3        &kp N4         &kp N5  &none                                                         &mo 2      &kp N6  &kp N7         &kp N8        &kp N9         &kp N0        &kp MINUS
-&kp TAB    &kp Q         &kp W          &kp F         &kp P          &kp B   &none                                                         &none      &kp J   &kp L          &kp U         &kp Y          &kp SEMI      &kp BSLH
-&kp ESC    &hm_l LALT A  &hm_l LCTRL R  &hm_l LWIN S  &hm_l LSHFT T  &kp G   &none     &kp HOME   &kp PG_DN      &kp PG_UP  &kp END        &none      &kp M   &hm_r RSHFT N  &hm_r RWIN E  &hm_r RCTRL I  &hm_r RALT O  &kp SQT
-&kp LSHFT  &kp Z         &kp X          &kp C         &kp D          &kp V                        &none          &none                                &kp K   &kp H          &kp COMMA     &kp DOT        &kp FSLH      &kp RSHFT
-&none      &kp GRAVE     &kp CAPS       &kp LEFT      &kp RIGHT              &kp BSPC  &kp SPACE  &mo 1          &mo 1      &kp BACKSPACE  &kp ENTER          &kp UP         &kp DOWN      &kp LBKT       &kp RBKT      &none
+&none  &none         &none           &none         &none          &none  &none                                                         &mo 2      &none  &none          &none         &none          &none         &none
+&none  &kp Q         &kp W           &kp F         &kp P          &kp B  &none                                                         &none      &kp J  &kp L          &kp U         &kp Y          &kp SEMI      &none
+&none  &hm_l LALT A  &hm_l LCTRL R   &hm_l LWIN S  &hm_l LSHFT T  &kp G  &none     &kp HOME   &kp PG_DN      &kp PG_UP  &kp END        &none      &kp M  &hm_r RSHFT N  &hm_r RWIN E  &hm_r RCTRL I  &hm_r RALT O  &none
+&none  &kp Z         &kp X           &kp C         &kp D          &kp V                       &kp TAB        &none                                &kp K  &kp H          &kp COMMA     &kp DOT        &kp FSLH      &none
+&none  &kp GRAVE     &kp APOSTROPHE  &kp LEFT      &kp RIGHT             &kp BSPC  &kp SPACE  &mo 1          &mo 1      &kp BACKSPACE  &kp ENTER         &kp UP         &kp DOWN      &kp LBKT       &kp RBKT      &none
             >;
         };
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans                &trans                 &trans            &trans                                                  &trans            &trans             &trans          &trans           &trans   &trans   &trans
-&trans  &kp F1  &kp F2  &kp F3                &kp F4                 &kp F5            &kp F6                                                  &kp F7            &kp F8             &kp F9          &kp F10          &kp F11  &kp F12  &trans
-&trans  &kp N1  &kp N2  &kp N3                &kp N4                 &kp N5            &trans      &trans      &trans      &trans  &trans      &trans            &kp N6             &kp N7          &kp N8           &kp N9   &kp N0   &trans
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET                          &trans      &trans                                &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans   &trans   &trans
-&trans  &trans  &trans  &trans                &trans                                   &kp K_NEXT  &kp K_PREV  &trans      &trans  &kp K_MUTE  &kp K_PLAY_PAUSE                     &trans          &trans           &trans   &trans   &trans
+&trans  &trans      &trans     &trans                &trans                 &trans            &trans                                                  &trans            &trans             &trans          &trans           &trans     &trans         &trans
+&trans  &kp F1      &kp F2     &kp F3                &kp F4                 &kp F5            &kp F6                                                  &kp F7            &kp F8             &kp F9          &kp F10          &kp F11    &kp F12        &trans
+&trans  &kp N1      &kp N2     &kp N3                &kp N4                 &kp N5            &kp ESC     &trans      &trans      &trans  &trans      &kp PRINTSCREEN   &kp N6             &kp N7          &kp N8           &kp N9     &kp N0         &trans
+&trans  &kp SYSREQ  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET                          &trans      &trans                                &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp BACKSLASH  &trans
+&trans  &trans      &trans     &trans                &trans                                   &kp K_NEXT  &kp K_PREV  &trans      &trans  &kp K_MUTE  &kp K_PLAY_PAUSE                     &trans          &trans           &trans     &trans         &trans
             >;
         };
 
